@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'San Fransisco', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(20, 20, 25);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 16px;
+    width: 100vw;
+}
+
+#heart {
+    font-size: 18px;
+}
+
+.main-container {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 350px;
+    max-width: 500px;
+}
+
+header {
+    font-size: 500%;
+    font-weight: 300;
+}
+
+#display {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.display-equation {
+    background-color: rgba(254, 254, 254, 0.8);
+    border-radius: 4px;
+    height: 3rem;
+    width: 20vw;
+    min-width: 175px;
+    max-width: 300px;
+    color: white;
+    display: flex;
+    align-self: flex-end;
+    margin: 4px;
+}
+
+.display-value {
+    height: 4rem;
+    background-color: white;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#main-btns {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.row-parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100%;
+    height: 4rem;
+    margin: 8px;
+    min-width: 340px;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 1rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(50, 52, 58, 1);
+    width: 75px;
+    height: 75px;
+    border-radius: 8px;
+    transform: scale(0.9, 0.9);
+}
+
+footer {
+    display: flex;
+    color: white;
+    margin: auto;
+    justify-content: center;
+}
