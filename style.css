@@ -36,7 +36,7 @@ header {
 
 h2 {
     font-weight: 300;
-    font-size: 36px;
+    font-size: 30px;
     color: white;
 }
 
@@ -56,14 +56,14 @@ h2 {
     color: white;
     display: flex;
     align-self: flex-end;
-    margin: 8px;
+    margin: 2px;
 }
 
 .display-value {
     height: 4rem;
     background-color: white;
     border-radius: 8px;
-    margin: 8px;
+    margin: 2px;
 }
 
 #main-btns {
