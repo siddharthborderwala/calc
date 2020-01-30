@@ -31,7 +31,7 @@ header {
     justify-content: center;
     background-color: rgba(50, 50, 60, 1);
     border-radius: 8px;
-    width: 94%;
+    width: 100%;
 }
 
 h2 {
@@ -56,14 +56,14 @@ h2 {
     color: white;
     display: flex;
     align-self: flex-end;
-    margin: 2px;
+    margin: 8px;
 }
 
 .display-value {
     height: 4rem;
     background-color: white;
     border-radius: 8px;
-    margin: 2px;
+    margin: 8px;
 }
 
 #main-btns {
