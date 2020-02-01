@@ -8,3 +8,5 @@ It's a calculator web app
 I used html, css and vanilla javascript :)
 # status
 Still in development phase <br> done with Mobile UI
+# link
+https://siddharthborderwala.github.io/calc/
