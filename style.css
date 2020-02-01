@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0 16px;
+    padding: 12px 16px;
     width: 100vw;
 }
 
@@ -23,6 +23,14 @@ body {
     height: 100vh;
     min-width: 350px;
     max-width: 500px;
+}
+
+tspan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    min-width: 18px;
 }
 
 header {
@@ -47,7 +55,7 @@ h2 {
 }
 
 .display-equation {
-    background-color: rgba(254, 254, 254, 0.8);
+    background-color: rgba(50, 52, 58, 0.6);
     border-radius: 8px;
     height: 3rem;
     width: 20vw;
@@ -61,10 +69,9 @@ h2 {
 
 .display-value {
     height: 4rem;
-    background-color: white;
+    background-color: rgba(50, 50, 58, 0.6);
     border-radius: 8px;
-    margin: 8px;
-    margin-top: 0;
+    margin: 0 8px;
 }
 
 #main-btns {
@@ -88,7 +95,6 @@ h2 {
     height: 4rem;
     margin: 8px;
     min-width: 340px;
-    border-radius: 4px;
 }
 
 .btn {
@@ -102,4 +108,98 @@ h2 {
     height: 75px;
     border-radius: 8px;
     transform: scale(0.9, 0.9);
+    align-items: center;
+}
+
+.num {
+    font-weight: 500;
+    color: white;
+}
+
+#multiply>svg {
+    transform: scale(0.75, 0.75);
+}
+
+#divide>svg {
+    transform: scale(0.8, 0.8);
+}
+
+svg {
+    transform: scale(0.9, 0.9);
+}
+
+#ac {
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+#del {
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+#dec {
+    color: white;
+    font-weight: 500;
+}
+
+#equal {
+    width: 165px;
+    background-color: #FF285E;
+}
+
+#ac {
+    width: 165px;
+}
+
+.row-5 {
+    padding: 12px 4px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row-5-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    box-sizing: content-box;
+    transform: translate(3px);
+}
+
+.row-5-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+}
+
+.operator {
+    background-color: rgba(56, 50, 68, 1);
+}
+
+.row-1 {
+    transform: translateY(6px);
+}
+
+.row-1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    box-sizing: content-box;
+    transform: translate(-3px);
+}
+
+.row-1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    width: inherit;
 }
