@@ -205,3 +205,9 @@ svg {
     width: inherit;
     transform: translate(2px);
 }
+
+.click-transform {
+    margin-top: 3px;
+}
+
+.back {}
