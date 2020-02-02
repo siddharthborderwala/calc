@@ -14,7 +14,7 @@ const UIController = (function() {
                 el.classList.add('click-transform');
                 setTimeout((el) => {
                     el.classList.remove('click-transform');
-                }, 150, el);
+                }, 75, el);
             });
         });
     };
