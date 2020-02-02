@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     height: 100vh;
     min-width: 350px;
-    max-width: 500px;
+    max-width: 375px;
 }
 
 tspan {
@@ -144,12 +144,12 @@ svg {
 }
 
 #equal {
-    width: 165px;
+    width: 170px;
     background-color: #FF285E;
 }
 
 #ac {
-    width: 165px;
+    width: 170px;
 }
 
 .row-5 {
@@ -166,7 +166,7 @@ svg {
     align-items: center;
     flex: 1;
     box-sizing: content-box;
-    transform: translate(3px);
+    transform: translate(5px);
 }
 
 .row-5-2 {
@@ -175,6 +175,7 @@ svg {
     justify-content: space-evenly;
     align-items: center;
     flex: 1;
+    transform: translate(-5px);
 }
 
 .operator {
@@ -202,4 +203,5 @@ svg {
     align-items: center;
     flex: 1;
     width: inherit;
+    transform: translate(2px);
 }
