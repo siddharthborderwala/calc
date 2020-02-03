@@ -64,14 +64,26 @@ h2 {
     color: white;
     display: flex;
     align-self: flex-end;
+    flex-direction: row;
     margin: 8px;
+    padding: 8px 12px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
 }
 
 .display-value {
+    padding: 12px;
     height: 4rem;
     background-color: rgba(50, 50, 58, 0.6);
     border-radius: 8px;
     margin: 0 8px;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #main-btns {
