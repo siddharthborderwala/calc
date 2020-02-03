@@ -70,6 +70,7 @@ h2 {
     justify-content: flex-end;
     align-items: center;
     font-size: 16px;
+    overflow: scroll;
 }
 
 .display-value {
@@ -84,6 +85,12 @@ h2 {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    overflow: scroll;
+}
+
+.display-value::-webkit-scrollbar,
+.display-equation::-webkit-scrollbar {
+    display: none;
 }
 
 #main-btns {

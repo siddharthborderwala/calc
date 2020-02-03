@@ -99,7 +99,10 @@ const APPController = (function(uictrl, lgctrl) {
         //listener for equal to
         document.querySelector('#equal').addEventListener('click', e => {
             const equation = uictrl.eqEvent();
-            const res = lgctrl.findVal(equation);
+            let res = lgctrl.findVal(equation);
+            if (res.toString().length > 10) {
+                res = parseFloat(res.toFixed(8));
+            }
             uictrl.updateVal(res);
         });
     }
