@@ -7,6 +7,6 @@ It's a calculator web app
 # what did I use
 I used html, css and vanilla javascript :)
 # status
-Still in development phase <br> done with Mobile UI and Desktop UI
+Calculator is functional <br> done with Mobile UI and Desktop UI
 # link
 https://siddharthborderwala.github.io/calc/
