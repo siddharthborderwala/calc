@@ -54,6 +54,7 @@ const UIController = (function() {
         },
         updateVal: function(val) {
             displayVal.textContent = '';
+            if (val === NaN) val = 'undefined';
             displayVal.textContent = `${val}`;
         }
     };
@@ -100,7 +101,7 @@ const APPController = (function(uictrl, lgctrl) {
         document.querySelector('#equal').addEventListener('click', e => {
             const equation = uictrl.eqEvent();
             let res = lgctrl.findVal(equation);
-            if (res.toString().length > 10) {
+            if (res.toString().length > 10 && !Number.isInteger(res)) {
                 res = parseFloat(res.toFixed(8));
             }
             uictrl.updateVal(res);
